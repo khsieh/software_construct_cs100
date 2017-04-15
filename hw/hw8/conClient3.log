@@ -1,0 +1,23 @@
+Script started on Tue 03 Dec 2013 06:04:33 AM PST
+~
+khsie003@well $ cd cs100/hw/hw8t[K/test3
+~/cs100/hw/hw8/test3
+khsie003@well $ ./conClient well.cs.ucr.edu
+Connecting to remote server: well.cs.ucr.edu
+Socket setup successful.
+Connecting to well.cs.ucr.edu using port 54367 ...
+Connection established!
+
+Enter the directory name you wish to copy: ./To_cp opt y
+making new directory named: ./To_copy
+Writing file: ./To_copy/file1... 
+Writing file: ./To_copy/file3... 
+Writing file: End_Of_Dir... 
+
+Disconnecting from server... 
+Bye Bye~
+~/cs100/hw/hw8/test3
+khsie003@well $ eo[Kxo[Kit
+exit
+
+Script done on Tue 03 Dec 2013 06:06:58 AM PST

@@ -1,0 +1,19 @@
+#Makefile
+
+#Variables
+COMPILE = g++
+FLAGS = -g -W -Wall -Werror -ansi -pedantic
+OBJECTS = ______.o
+SOURCES = ______.c
+HEADERS = ______.h
+
+#Targets
+
+all: _____.cpp $(OBJS)
+	$(COMPILE) $(FLAGS) -o a.out main.cpp $(OBJS)
+
+________.o: _______.cpp _________.h
+	$(COMPILE) $(FLAGS) -c ___________.cpp
+
+clean:
+	rm -rf *~ *.o a.out

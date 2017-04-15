@@ -1,0 +1,20 @@
+Name: Brit Seto
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: kevin hsieh
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: Ruby rose
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: hello world
+Address: 12345 world st.
+Phone: 876 876 9898
+=======================================
+

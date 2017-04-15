@@ -1,0 +1,36 @@
+Script started on Tue 03 Dec 2013 05:49:02 AM PST
+~
+khsie003@well $ cd cs100/hw/8[Khw8
+~/cs100/hw/hw8
+khsie003@well $ ./[K[Kls
+[00m[00;32mconClient[00m*     [00;32mconServer[00m*     [00;31mhw8.tgz[00m    [00mitClient.cpp[00m  [00mitServer.cpp[00m  [00mtypescript[00m
+[00mconClient.cpp[00m  [00mconServer.cpp[00m  [00;32mitClient[00m*  [00;32mitServer[00m*     [00mmakefile[00m
+[m~/cs100/hw/hw8
+khsie003@well $ ./itServer 
+Socket setup successful.
+Binding successful.
+Blocking untill accept...
+Accept successful
+
+Checking for directory: /bin ...
+
+
+ARG:: /bin
+
+Checking for directory: . ...
+
+
+ARG:: .
+
+Checking for directory: /etc ...
+
+
+ARG:: /etc
+
+Shutting down server...
+Bye Bye~
+~/cs100/hw/hw8
+khsie003@well $ exit
+exit
+
+Script done on Tue 03 Dec 2013 05:49:47 AM PST

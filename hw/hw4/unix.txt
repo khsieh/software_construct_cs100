@@ -1,0 +1,6 @@
+1) grep ["0-9"] *.cpp
+2) grep "cout <<" *.cpp *.h
+3) sed -i '/^$/d' foo.cpp 
+4) find ~ -not -path ./Trash -prune -o \( -name '*.o' -o -name '*.out' \) -exec mv {} ~/.Trash/ \;
+5) find / -name bin
+6) find ~ -size 20

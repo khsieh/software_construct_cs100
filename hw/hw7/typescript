@@ -1,0 +1,153 @@
+Script started on Tue 26 Nov 2013 11:15:42 PM PST
+~
+khsie003@well $ cd cs10
+cs10/  cs100/ 
+~
+khsie003@well $ cd cs100/hw/hw7
+~/cs100/hw/hw7
+khsie003@well $ sh[K[Kll
+[00mtotal 392
+-rwx------ 1 khsie003 csmajs 177864 Nov 26 23:12 [00;32mcountWords[00m*
+-rw------- 1 khsie003 csmajs   2126 Nov 24 23:34 [00mcountWords.cpp[00m
+-rw------- 1 khsie003 csmajs     12 Nov 26 23:13 [00meven.txt[00m
+-rw------- 1 khsie003 csmajs     24 Nov 26 23:07 [00mexcludedWords.txt[00m
+-rw------- 1 khsie003 csmajs   4392 Nov 26 23:02 [00;31mhw7.tgz[00m
+-rwx------ 1 khsie003 csmajs 107673 Nov 26 23:12 [00;32mintegerSeparator[00m*
+-rw------- 1 khsie003 csmajs   1017 Nov 26 23:03 [00mintegerSeparator.cpp[00m
+-rw------- 1 khsie003 csmajs    671 Nov 25 02:19 [00mMakefile[00m
+-rw------- 1 khsie003 csmajs    839 Nov 25 03:16 [00;32mmy_dircheck.sh[00m
+-rw------- 1 khsie003 csmajs   1301 Nov 26 22:34 [00;32mmy_find.sh[00m
+-rwx------ 1 khsie003 csmajs  54469 Nov 26 23:12 [00;32mmy_shell[00m*
+-rw------- 1 khsie003 csmajs   7167 Nov 26 22:55 [00mmy_shell.cpp[00m
+-rw------- 1 khsie003 csmajs    644 Nov 24 23:00 [00;32mmy_which.sh[00m
+-rw------- 1 khsie003 csmajs      8 Nov 26 23:13 [00modd.txt[00m
+-rw------- 1 khsie003 csmajs      0 Nov 26 23:15 [00mtypescript[00m
+-rw------- 1 khsie003 csmajs    188 Nov 26 23:12 [00mwords.txt[00m
+[m~/cs100/hw/hw7
+khsie003@well $ [H[2J~/cs100/hw/hw7
+khsie003@well $ make my_[K[K[Kclean
+rm -rf my_shell countWords integerSeparator my_shell.o coundtWords.o integerSeparator.o
+~/cs100/hw/hw7
+khsie003@well $ make 
+g++ -ggdb -W -Wall -Werror -ansi -pedantic my_shell.cpp -o my_shell
+g++ -ggdb -W -Wall -Werror -ansi -pedantic countWords.cpp -o countWords
+g++ -ggdb -W -Wall -Werror -ansi -pedantic integerSeparator.cpp -o integerSeparator
+~/cs100/hw/hw7
+khsie003@well $ ./countWords 
+Please enter the Exclude Words file name: exclude edWords.txt
+Please enter the file name: words.txt
+Words Counted, Words: Frequency
+"50th" appeared 1 time(s)
+"Doctor" appeared 1 time(s)
+"Rose" appeared 1 time(s)
+"Who" appeared 1 time(s)
+"all" appeared 1 time(s)
+"awesome!" appeared 1 time(s)
+"back" appeared 1 time(s)
+"came" appeared 1 time(s)
+"changed" appeared 1 time(s)
+"doctor" appeared 2 time(s)
+"episode" appeared 2 time(s)
+"his" appeared 1 time(s)
+"history" appeared 1 time(s)
+"i" appeared 1 time(s)
+"it" appeared 1 time(s)
+"kinda" appeared 1 time(s)
+"love" appeared 1 time(s)
+"of" appeared 1 time(s)
+"own" appeared 1 time(s)
+"sill" appeared 1 time(s)
+"so" appeared 2 time(s)
+"special" appeared 1 time(s)
+"there" appeared 1 time(s)
+"was" appeared 3 time(s)
+"weird" appeared 1 time(s)
+~/cs100/hw/hw7
+khsie003@well $ cat words.txt 
+the Doctor Who 50th special episode was so awesome!
+all of the doctor was there and Rose came back
+but the doctor changed his own history
+so it was kinda weird
+but i sill love the episode
+~/cs100/hw/hw7
+khsie003@well $ cat es[KxcludedWords.txt 
+an
+a
+the
+is
+and 
+or
+but
+~/cs100/hw/hw7
+khsie003@well $ ./integerSeparator 
+Enter a sequence of intergers you wishto separate into odd.txt and even.txt
+> 1 2 3 55 46 23 112
+1 2 3 23 46 55 112 
+separate odd and even integers into odd.txt and even.txt.
+~/cs100/hw/hw7
+khsie003@well $ cat out[K[Kdd.txt 
+1 3 23 55 
+~/cs100/hw/hw7
+khsie003@well $ cat even.txt 
+2
+46
+112
+~/cs100/hw/hw7
+khsie003@well $ sh my_which.sh ls
+/bin/ls
+~/cs100/hw/hw7
+khsie003@well $ sh my_which.sh ls[K[Kcd
+~/cs100/hw/hw7
+khsie003@well $ sh my_which.sh cd[K[Kmkdir
+/bin/mkdir
+~/cs100/hw/hw7
+khsie003@well $ sh my_which.sh mkdir[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdircheck.sh ~/cs100/hw/
+/home/csmajs/khsie003/cs100/hw/:\n
+Number of Subdirectories:  9
+Number of Files:  95
+List of files with Zero Length:\n/home/csmajs/khsie003/cs100/hw/hw2/lec_note/testDir/testfile
+/home/csmajs/khsie003/cs100/hw/hw2/lec_note/testDir/dummyfile
+/home/csmajs/khsie003/cs100/hw/hw4/out
+/home/csmajs/khsie003/cs100/hw/hw5/out
+/home/csmajs/khsie003/cs100/hw/hw5/out2
+/home/csmajs/khsie003/cs100/hw/hw7/typescript
+Disk Usage:  13M /home/csmajs/khsie003/cs100/hw/
+
+~/cs100/hw/hw7
+khsie003@well $ sh my_dircheck.sh ~/cs100/hw/[K[K[Klabs/
+/home/csmajs/khsie003/cs100/labs/:\n
+Number of Subdirectories:  11
+Number of Files:  47
+List of files with Zero Length:\n/home/csmajs/khsie003/cs100/labs/lab5/test1/test2/g
+/home/csmajs/khsie003/cs100/labs/lab5/test1/test2/H
+/home/csmajs/khsie003/cs100/labs/lab5/test1/test2/i
+/home/csmajs/khsie003/cs100/labs/lab6/test1/stuff
+/home/csmajs/khsie003/cs100/labs/lab6/test1/morestuff
+/home/csmajs/khsie003/cs100/labs/lab6/tarrrr
+/home/csmajs/khsie003/cs100/labs/lab6/newfile
+Disk Usage:  948K /home/csmajs/khsie003/cs100/labs/
+
+~/cs100/hw/hw7
+khsie003@well $ sh find[K[K[K[Kmy_find.sh .
+/home/csmajs/khsie003/cs100/hw/hw7//home/csmajs/khsie003/cs100/hw/hw7:
+/home/csmajs/khsie003/cs100/hw/hw7/countWords
+/home/csmajs/khsie003/cs100/hw/hw7/countWords.cpp
+/home/csmajs/khsie003/cs100/hw/hw7/even.txt
+/home/csmajs/khsie003/cs100/hw/hw7/excludedWords.txt
+/home/csmajs/khsie003/cs100/hw/hw7/hw7.tgz
+/home/csmajs/khsie003/cs100/hw/hw7/integerSeparator
+/home/csmajs/khsie003/cs100/hw/hw7/integerSeparator.cpp
+/home/csmajs/khsie003/cs100/hw/hw7/Makefile
+/home/csmajs/khsie003/cs100/hw/hw7/my_dircheck.sh
+/home/csmajs/khsie003/cs100/hw/hw7/my_find.sh
+/home/csmajs/khsie003/cs100/hw/hw7/my_shell
+/home/csmajs/khsie003/cs100/hw/hw7/my_shell.cpp
+/home/csmajs/khsie003/cs100/hw/hw7/my_which.sh
+/home/csmajs/khsie003/cs100/hw/hw7/odd.txt
+/home/csmajs/khsie003/cs100/hw/hw7/typescript
+/home/csmajs/khsie003/cs100/hw/hw7/words.txt
+~/cs100/hw/hw7
+khsie003@well $ sh my_find.sh .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Tue 26 Nov 2013 11:17:43 PM PST

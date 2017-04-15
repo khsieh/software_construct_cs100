@@ -1,0 +1,42 @@
+Script started on Fri 06 Dec 2013 11:39:41 PM PST
+~
+khsie003@well $ cd cs100h[K/hw/9
+bash: cd: cs100/hw/9: No such file or directory
+~
+khsie003@well $ cd cs100/hw/9[Khw9
+~/cs100/hw/hw9
+khsie003@well $ ./cn[Kno[K[KonServer 
+Socket setup successful.
+Binding successful.
+Blocking untill accept...
+^[OH    Accept successful
+READING FOR DIRNAME...
+
+Checking for directory: test ...
+
+FILENAME: test/hello.txt
+FILENAME: test/pandi.txt
+Blocking untill accept...
+Accept successful
+READING FOR DIRNAME...
+
+Checking for directory: test ...
+
+FILENAME: test/hello.txt
+FILENAME: test/pandi.txt
+Blocking untill accept...
+Accept successful
+READING FOR DIRNAME...
+
+Checking for directory: test ...
+
+FILENAME: test/hello.txt
+FILENAME: test/pandi.txt
+
+Shutting down server...
+Bye Bye~
+~/cs100/hw/hw9
+khsie003@well $ exot[K[Kit
+exit
+
+Script done on Fri 06 Dec 2013 11:41:25 PM PST

@@ -1,0 +1,45 @@
+Script started on Thu 10 Oct 2013 12:52:44 AM PDT
+~
+khsie003@well $ cd cs[K[K[K[K[Kls -;[Kl
+[00mtotal 36
+drwx------ 5 khsie003 csmajs 4096 Nov  5  2012 [00;34mcs10[00m/
+drwx--x--x 4 khsie003 csmajs 4096 Oct  4 17:33 [00;34mcs100[00m/
+drwx------ 5 khsie003 csmajs 4096 Jan 19  2013 [00;34mcs12[00m/
+drwx------ 4 khsie003 csmajs 4096 Apr  1  2013 [00;34mcs14[00m/
+drwx------ 4 khsie003 csmajs 4096 Jun 17 16:48 [00;34mcs61[00m/
+drwx------ 2 khsie003 csmajs 4096 May 13 18:17 [00;34mDesktop[00m/
+drwx------ 2 khsie003 csmajs 4096 Sep 30 12:05 [00;34mDownloads[00m/
+-rw------- 1 khsie003 csmajs  294 Apr 23 22:48 [00mMakefile_template[00m
+drwx--x--x 2 khsie003 csmajs 4096 Apr 19 19:16 [00;34mpublic_html[00m/
+-rw------- 1 khsie003 csmajs    0 Oct 10 00:52 [00mtypescript[00m
+[m~
+khsie003@well $ cd cs100/hw/hw1/
+~/cs100/hw/hw1
+khsie003@well $ clear
+[H[2J~/cs100/hw/hw1
+khsie003@well $ ls -l
+[00mtotal 68
+-rw------- 1 khsie003 csmajs   304 Oct  9 23:09 [00mloadfile.txt[00m
+-rwx------ 1 khsie003 csmajs 25275 Oct 10 00:47 [00;32mrolodex[00m*
+-rw------- 1 khsie003 csmajs 12195 Oct 10 00:49 [00mrolodex.cc[00m
+-rw------- 1 khsie003 csmajs   404 Oct 10 00:27 [00msavefile.txt[00m
+-rwx------ 1 khsie003 csmajs 11504 Oct 10 00:50 [00;32mstack[00m*
+-rw------- 1 khsie003 csmajs  1270 Oct 10 00:11 [00mstack.cc[00m
+-rw------- 1 khsie003 csmajs   951 Oct 10 00:09 [00mstack.h[00m
+[m~/cs100/hw/hw1
+khsie003@well $ g++ -o stack stack.cc 
+~/cs100/hw/hw1
+khsie003@well $ ./stack 
+Please enter string: hello world
+dlrow olleh
+~/cs100/hw/hw1
+khsie003@well $ ./stack 
+Please enter string: h I don't wnat     ant to s try to into  put 1000 ca    characters, but i   I hpo  ope it works with 1- 000 characters.  
+.sretcarahc 0001 htiw skrow ti epoh I tub ,sretcarahc 0001 tupni ot yrt ot tnaw t'nod I
+~/cs100/hw/hw1
+khsie003@well $ clear
+[H[2J~/cs100/hw/hw1
+khsie003@well $ exit
+exit
+
+Script done on Thu 10 Oct 2013 12:54:18 AM PDT

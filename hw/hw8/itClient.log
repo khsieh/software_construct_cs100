@@ -1,0 +1,305 @@
+Script started on Tue 03 Dec 2013 05:50:47 AM PST
+~
+khsie003@well $ cd cs1--[K[K00/g[Khw/hw8
+~/cs100/hw/hw8
+khsie003@well $ ./itClient we..[K[Kll.c[K[K[K[K[K[K
+ERROR: Usage: ./itClient hostname
+i.e. ./itClient well.cs.ucr.edu
+~/cs100/hw/hw8
+khsie003@well $ ./itClient welll[K.cs.ucr.edu
+Connecting to remote server: well.cs.ucr.edu
+Socket setup successful.
+Connecting to well.cs.ucr.edu using port 54367 ...
+Connection established!
+Enter a Directory name you wish to check with ls -l
+(type "end" to stop) 
+> /bin
+========================================
+total 8696
+-rwxr-xr-x 1 root root    8992 Jan  9  2013 alsacard
+-rwxr-xr-x 1 root root   21248 Jan  9  2013 alsaunmute
+-rwxr-xr-x 1 root root    7440 Nov  8  2012 arch
+lrwxrwxrwx 1 root root       4 Jan 30  2013 awk -> gawk
+-rwxr-xr-x 1 root root   20984 Mar 21  2012 basename
+-rwxr-xr-x 1 root root  801528 Jul 10 05:43 bash
+-rwxr-xr-x 1 root root   25248 Mar 21  2012 cat
+-rwxr-xr-x 1 root root   42944 Mar 21  2012 chgrp
+-rwxr-xr-x 1 root root   40216 Mar 21  2012 chmod
+-rwxr-xr-x 1 root root   45584 Mar 21  2012 chown
+-rwxr-xr-x 1 root root   71016 Mar 21  2012 cp
+-rwxr-xr-x 1 root root  110280 Oct  1 11:50 cpio
+lrwxrwxrwx 1 root root       4 Sep 19  2012 csh -> tcsh
+-rwxr-xr-x 1 root root   36648 Mar 21  2012 cut
+-rwxr-xr-x 1 root root   52800 Mar 21  2012 date
+-rwxr-xr-x 1 root root   12592 Oct  1 14:59 dbus-cleanup-sockets
+-rwxr-xr-x 1 root root  306992 Oct  1 14:59 dbus-daemon
+-rwxr-xr-x 1 root root   16008 Oct  1 14:59 dbus-monitor
+-rwxr-xr-x 1 root root   19736 Oct  1 14:59 dbus-send
+-rwxr-xr-x 1 root root   10144 Oct  1 14:59 dbus-uuidgen
+-rwxr-xr-x 1 root root   45880 Mar 21  2012 dd
+-rwxr-xr-x 1 root root   43192 Mar 21  2012 df
+-rwxr-xr-x 1 root root    9680 Nov  8  2012 dmesg
+lrwxrwxrwx 1 root root       8 Oct 16 19:26 dnsdomainname -> hostname
+-rwxr-xr-x 1 root root    7048 Oct  1 05:25 doexec
+lrwxrwxrwx 1 root root       8 Oct 16 19:26 domainname -> hostname
+-rwxr-xr-x 1 root root   79088 Jan  8  2013 dumpkeys
+-rwxr-xr-x 1 root root   22856 Mar 21  2012 echo
+-rwxr-xr-x 1 root root   49344 Oct 23  2008 ed
+lrwxrwxrwx 1 root root       4 Sep 19  2012 egrep -> grep
+-rwxr-xr-x 1 root root   20880 Mar 21  2012 env
+lrwxrwxrwx 1 root root       2 Jan 30  2013 ex -> vi
+-rwxr-xr-x 1 root root   19304 Mar 21  2012 false
+lrwxrwxrwx 1 root root       4 Sep 19  2012 fgrep -> grep
+-rwxr-xr-x 1 root root  338744 Jun 14  2012 gawk
+-rwxr-xr-x 1 root root   29968 Mar  5  2011 gettext
+-rwxr-xr-x 1 root root   88896 Sep 26  2009 grep
+lrwxrwxrwx 1 root root       3 Sep 19  2012 gtar -> tar
+-rwxr-xr-x 3 root root   64056 Jul 22  2011 gunzip
+-rwxr-xr-x 3 root root   64056 Jul 22  2011 gzip
+-rwxr-xr-x 1 root root   15912 Oct 15 04:50 hostname
+-rwxr-xr-x 1 root root    3089 Jun 14  2012 igawk
+-rwxr-xr-x 1 root root   36760 Oct  1 05:25 ipcalc
+-rwxr-xr-x 1 root root   10336 Jan  8  2013 kbd_mode
+-rwxr-xr-x 1 root root   23776 Jan  5  2007 keyctl
+-rwxr-xr-x 1 root root   14864 Nov  8  2012 kill
+lrwxrwxrwx 1 root root      21 Sep 19  2012 ksh -> /etc/alternatives/ksh
+-rwxr-xr-x 1 root root 1326264 Oct  1 13:45 ksh93
+-rwxr-xr-x 1 root root   20696 Mar 21  2012 link
+-rwxr-xr-x 1 root root   31888 Mar 21  2012 ln
+-rwxr-xr-x 1 root root  104048 Jan  8  2013 loadkeys
+-rwxr-xr-x 1 root root  674624 Jan  8  2013 loadkeys.static
+-rwxr-xr-x 1 root root   14776 Nov  8  2012 logger
+-rwxr-xr-x 1 root root   28504 Nov  8  2012 login
+-rwxr-xr-x 1 root root   91272 Mar 21  2012 ls
+-rwxr-xr-x 1 root mail   84856 Jan  6  2007 mail
+lrwxrwxrwx 1 root root       4 Sep 19  2012 mailx -> mail
+-rwxr-xr-x 1 root root   31664 Mar 21  2012 mkdir
+-rwxr-xr-x 1 root root   26192 Mar 21  2012 mknod
+-rwxr-xr-x 1 root root   12824 Feb 23  2012 mktemp
+-rwxr-xr-x 1 root root   35880 Nov  8  2012 more
+-rwsr-xr-x 1 root root   61656 Nov  8  2012 mount
+-rwxr-xr-x 1 root root    9888 Jul 21  2011 mountpoint
+-rwxr-xr-x 1 root root   80488 Mar 21  2012 mv
+-rwxr-xr-x 1 root root  125936 Oct 15 04:50 netstat
+-rwxr-xr-x 1 root root   23424 Mar 21  2012 nice
+lrwxrwxrwx 1 root root       8 Oct 16 19:26 nisdomainname -> hostname
+-rwxr-xr-x 1 root root  338760 Jun 14  2012 pgawk
+-rwsr-xr-x 1 root root   37312 Sep 26  2009 ping
+-rwsr-xr-x 1 root root   32736 Sep 26  2009 ping6
+-r-xr-xr-x 1 root root   83696 Oct  1 13:37 ps
+-rwxr-xr-x 1 root root   25416 Mar 21  2012 pwd
+-rwxr-xr-x 1 root root   10416 Nov  8  2012 raw
+lrwxrwxrwx 1 root root       2 Sep 19  2012 red -> ed
+-rwxr-xr-x 1 root root     576 Apr 16  2008 redhat_lsb_init
+-rwxr-xr-x 1 root root   47088 Mar 21  2012 rm
+-rwxr-xr-x 1 root root   21232 Mar 21  2012 rmdir
+-rwxr-xr-x 1 root root   91752 Oct  1 12:45 rpm
+lrwxrwxrwx 1 root root       2 Jan 30  2013 rvi -> vi
+lrwxrwxrwx 1 root root       2 Jan 30  2013 rview -> vi
+-rwxr-xr-x 1 root root   55472 May  4  2011 sed
+-rwxr-xr-x 1 root root   38488 Jan  8  2013 setfont
+-rwxr-xr-x 1 root root   22984 Jan  9  2007 setserial
+lrwxrwxrwx 1 root root       4 Jul 16 18:47 sh -> bash
+-rwxr-xr-x 1 root root   21984 Mar 21  2012 sleep
+-rwxr-xr-x 1 root root   58592 Mar 21  2012 sort
+-rwxr-xr-x 1 root root   47888 Mar 21  2012 stty
+-rwsr-xr-x 1 root root   28336 Mar 21  2012 su
+-rwxr-xr-x 1 root root   20216 Mar 21  2012 sync
+-rwxr-xr-x 1 root root  230464 May 14  2012 tar
+-rwxr-xr-x 1 root root   13240 Nov  8  2012 taskset
+lrwxrwxrwx 1 root root      10 Sep 19  2012 tcptraceroute -> traceroute
+-rwxr-xr-x 1 root root  352904 Nov  3  2010 tcsh
+-rwxr-xr-x 1 root root   42696 Mar 21  2012 touch
+-rwxr-xr-x 1 root root   11176 Sep 26  2009 tracepath
+-rwxr-xr-x 1 root root   11664 Sep 26  2009 tracepath6
+-rwxr-xr-x 1 root root   41248 Apr 28  2011 traceroute
+lrwxrwxrwx 1 root root      10 Sep 19  2012 traceroute6 -> traceroute
+lrwxrwxrwx 1 root root      10 Sep 19  2012 tracert -> traceroute
+-rwxr-xr-x 1 root root   19304 Mar 21  2012 true
+-rwsr-xr-x 1 root root   41592 Nov  8  2012 umount
+-rwxr-xr-x 1 root root   22336 Mar 21  2012 uname
+-rwxr-xr-x 1 root root    1271 Jan  8  2013 unicode_start
+-rwxr-xr-x 1 root root      79 Jan  8  2013 unicode_stop
+-rwxr-xr-x 1 root root   20576 Mar 21  2012 unlink
+-rwxr-xr-x 1 root root   31280 Oct  1 05:25 usleep
+-rwxr-xr-x 1 root root  632912 Jan  8  2013 vi
+lrwxrwxrwx 1 root root       2 Jan 30  2013 view -> vi
+lrwxrwxrwx 1 root root       8 Oct 16 19:26 ypdomainname -> hostname
+-rwxr-xr-x 3 root root   64056 Jul 22  2011 zcat
+-rwxr-xr-x 1 root root  596912 Oct  1 12:36 zsh
+
+========================================
+> .
+========================================
+total 208
+-rwx------ 1 khsie003 csmajs 49777 Dec  3 05:43 conClient
+-rw------- 1 khsie003 csmajs  3398 Dec  3 05:25 conClient.cpp
+-rwx------ 1 khsie003 csmajs 48935 Dec  3 05:43 conServer
+-rw------- 1 khsie003 csmajs  4665 Dec  3 05:29 conServer.cpp
+-rw------- 1 khsie003 csmajs  3613 Dec  3 05:39 hw8.tgz
+-rwx------ 1 khsie003 csmajs 47947 Dec  3 05:46 itClient
+-rw------- 1 khsie003 csmajs  2524 Dec  3 05:46 itClient.cpp
+-rwx------ 1 khsie003 csmajs 27338 Dec  3 05:47 itServer
+-rw------- 1 khsie003 csmajs  2945 Dec  3 05:46 itServer.cpp
+-rw------- 1 khsie003 csmajs   839 Dec  3 05:49 itServer.log
+-rw------- 1 khsie003 csmajs   684 Dec  1 17:09 makefile
+-rw------- 1 khsie003 csmajs     0 Dec  3 05:50 typescript
+
+========================================
+> /etc
+========================================
+total 4428
+-rw-r--r--  1 root root    15288 May 24  2008 a2ps.cfg
+-rw-r--r--  1 root root     2562 May 24  2008 a2ps-site.cfg
+drwxr-xr-x  4 root root     4096 Sep 19  2012 acpi
+-rw-r--r--  1 root root       45 Oct 23 11:10 adjtime
+drwxr-xr-x  4 root root     4096 Sep 19  2012 alchemist
+-rw-r--r--  1 root root     1512 Apr 25  2005 aliases
+-rw-r-----  1 root smmsp   12288 Oct 23 11:13 aliases.db
+drwxr-xr-x  4 root root     4096 Sep 19  2012 alsa
+drwxr-xr-x  2 root root     4096 Nov  6 08:36 alternatives
+-rw-r--r--  1 root root      298 Mar 27  2007 anacrontab
+-rw-r--r--  1 root root      395 Nov 22  2006 ant.conf
+drwxr-xr-x  2 root root     4096 Jan  6  2007 ant.d
+drwxr-xr-x  3 root root     4096 Mar 20  2013 apt
+-rw-------  1 root root        1 Jan 26  2010 at.deny
+drwxr-x---  3 root root     4096 Sep 19  2012 audisp
+drwxr-x---  2 root root     4096 Sep 19  2012 audit
+-rw-------  1 root root     3902 Oct  1 14:28 autofs_ldap_auth.conf
+-rw-r--r--  1 root root      717 Oct  1 14:28 auto.master
+-rw-r--r--  1 root root      581 Oct  1 14:28 auto.misc
+-rwxr-xr-x  1 root root     1292 Oct  1 14:28 auto.net
+-rwxr-xr-x  1 root root      742 Oct  1 14:28 auto.smb
+drwxr-xr-x  4 root root     4096 Sep 19  2012 avahi
+drwxr-xr-x  2 root root     4096 Jun 17 16:07 bash_completion.d
+-rw-r--r--  1 root root     1872 Feb 22  2012 bashrc
+drwxr-xr-x  2 root root     4096 Nov 27 16:21 blkid
+drwxr-xr-x  2 root root     4096 Sep 19  2012 bluetooth
+drwxr-xr-x  2 root root     4096 Sep 19  2012 bonobo-activation
+-rw-r--r--  1 root root      351 Sep 19  2009 capi.conf
+-rw-r--r--  1 root root      977 Mar 11  2009 cdrecord.conf
+-rw-r--r--  1 root root     6308 Nov 11  2007 conman.conf
+drwx------  2 root root     4096 Jan 30  2013 cron.d
+drwxr-xr-x  2 root root     4096 Oct 12 11:48 cron.daily
+-rw-r--r--  1 root root        0 Sep 19  2012 cron.deny
+drwxr-xr-x  2 root root     4096 Jan  9  2013 cron.hourly
+drwxr-xr-x  2 root root     4096 Jan  9  2013 cron.monthly
+-rw-r--r--  1 root root      569 Jun 12 13:03 crontab
+drwxr-xr-x  2 root root     4096 Jan 30  2013 cron.weekly
+-rw-r--r--  1 root root     1044 Feb 22  2012 csh.cshrc
+-rw-r--r--  1 root root      823 Feb 22  2012 csh.login
+drwxr-xr-x  5 root lp       4096 Mar 14  2013 cups
+drwxr-xr-x  4 root root     4096 Oct 12 11:48 dbus-1
+drwxr-xr-x  2 root root     4096 Oct 12 11:47 default
+drwxr-xr-x  2 root root     4096 Oct 12 11:49 depmod.d
+drwxr-xr-x  2 root root     4096 Feb 22  2012 desktop-profiles
+drwxr-xr-x  3 root root     4096 Jan  8  2013 dev.d
+-rw-r--r--  1 root root      178 Mar  5  2011 dhcp6c.conf
+-rw-r--r--  1 root root     2518 Mar 21  2012 DIR_COLORS
+-rw-r--r--  1 root root     2420 Mar 21  2012 DIR_COLORS.xterm
+-rw-r--r--  1 root root    18484 Sep  1  2009 dnsmasq.conf
+drwxr-xr-x  2 root root     4096 Sep  1  2009 dnsmasq.d
+-rw-rw-r--  1 root disk        0 Feb 23  2012 dumpdates
+-rw-r--r--  1 root root     4843 Dec 15  2008 enscript.cfg
+-rw-r--r--  1 root root        0 Feb 22  2012 environment
+-rw-r--r--  1 root root      153 Feb 22  2012 esd.conf
+-rw-r--r--  1 root root       49 Oct 10  2012 exports
+-rw-r--r--  1 root root    22060 Jan  6  2007 fb.modes
+-rw-r--r--  1 root root       59 Jan 31  2006 filesystems
+drwxr-xr-x  4 root root     4096 Sep 19  2012 fonts
+drwxr-xr-x  2 root root     4096 Sep 19  2012 foomatic
+-rw-r--r--  1 root root      945 Nov 27 16:22 fstab
+drwxr-xr-x  6 root root     4096 Sep 19  2012 gconf
+drwxr-xr-x  2 root root     4096 Oct 24 08:53 gcrypt
+drwxr-xr-x  7 root root     4096 Sep  5 21:17 gdm
+drwxr-xr-x  2 root root     4096 Sep 24 05:26 ghostscript
+drwxr-xr-x  4 root root     4096 Sep  7  2012 gimp
+drwxr-xr-x  3 root root     4096 Jul 10 05:45 gnome-vfs-2.0
+-rw-r--r--  1 root root    10793 Jan  5  2007 gnome-vfs-mime-magic
+-rw-r--r--  1 root root     1756 Jan  6  2007 gpm-root.conf
+-rw-r--r--  1 root root      836 Oct 12 11:49 group
+-rw-------  1 root root      836 May 23  2013 group-
+lrwxrwxrwx  1 root root       22 Sep 19  2012 grub.conf -> ../boot/grub/grub.conf
+-r--------  1 root root      692 Oct 12 11:49 gshadow
+-rw-------  1 root root      692 May 23  2013 gshadow-
+-rw-r--r--  1 root root      833 Mar 14  2007 gssapi_mech.conf
+drwxr-xr-x  2 root root     4096 Jan 30  2013 gtk
+drwxr-xr-x  4 root root     4096 Oct  1 14:14 gtk-2.0
+drwxr-xr-x  3 root root     4096 Jan  8  2013 hal
+-rw-r--r--  1 root root        0 Feb 22  2012 host.conf
+-rw-r--r--  1 root root      223 Oct  3  2012 hosts
+-rw-r--r--  1 root root      161 Jan 12  2000 hosts.allow
+-rw-r--r--  1 root root      165 Feb 22  2012 hosts.deny
+drwxr-xr-x  2 root root     4096 Sep 19  2012 hp
+drwxr-xr-x  2 root root     4096 Sep 19  2012 htdig
+drwxr-xr-x  4 root root     4096 Oct 16 19:26 httpd
+-rw-r--r--  1 root root     3579 Oct  1 14:09 idmapd.conf
+lrwxrwxrwx  1 root root       11 Sep 19  2012 init.d -> rc.d/init.d
+-rw-r--r--  1 root root      658 Oct  1 05:25 initlog.conf
+-rw-r--r--  1 root root     1666 Oct  1 05:25 inittab
+-rw-r--r--  1 root root      758 Sep 22  2004 inputrc
+drwxr-xr-x  2 root root     4096 Jan 30  2013 iproute2
+-r-xr-xr-x  1 root root    12042 Aug 28  2012 iptables.orig
+-rwxr-x---  1 root root    15412 Nov 18 17:51 iptables.rules
+-rwxr-xr-x  1 root root    12333 Oct 10  2012 iptables.rules.20121031
+-rwxr-xr-x  1 root root    12749 May 11  2013 iptables.rules.20130511
+drwxr-xr-x  2 root root     4096 Jan 30  2013 iscsi
+drwxr-xr-x  2 root root     4096 Sep 19  2012 isdn
+-rw-r--r--  1 root root       48 Oct  7 13:54 issue
+-rw-r--r--  1 root root       47 Oct  7 13:54 issue.net
+drwxr-xr-x  3 root root     4096 Jan 30  2013 java
+drwxr-xr-x  2 root root     4096 Jan  9  2013 jvm
+drwxr-xr-x  2 root root     4096 Jan  9  2013 jvm-commmon
+-rw-r--r--  1 root root    32016 May  4  2011 jwhois.conf
+drwxr-xr-x  4 root root     4096 Sep 19  2012 kde
+-rw-r--r--  1 root root      315 Aug 20  2012 kderc
+-rw-r--r--  1 root root     1265 Oct 12 11:48 kdump.conf
+-rw-r--r--  1 root root    11598 Jan 26  2011 kismet.conf
+-rw-r--r--  1 root root     2146 Jan 26  2011 kismet_drone.conf
+-rw-r--r--  1 root root      632 Nov  4  2009 krb5.conf
+-rw-r--r--  1 root root      848 Sep 10  2005 ksysguarddrc
+-rw-r--r--  1 root root     9111 Sep 19  2012 ldap.conf
+-rw-r--r--  1 root root   198546 Oct 31 21:58 ld.so.cache
+-rw-r--r--  1 root root       28 Oct  8  2006 ld.so.conf
+drwxr-xr-x  2 root root     4096 Oct 31 21:58 ld.so.conf.d
+-rw-r--r--  1 root root     3544 Jan  8  2013 lftp.conf
+-rw-r-----  1 root root      191 Oct 27  2011 libaudit.conf
+drwxr-xr-x  2 root root     4096 Sep 19  2012 libgda-3.0
+drwxr-xr-x  2 root root     4096 Jan  9  2013 libibverbs.d
+-rw-r--r--  1 root root     2506 Aug  7  2012 libuser.conf
+-rw-r--r--  1 root root      262 Jul  4  2011 lisarc
+-rw-r--r--  1 root root     2819 Sep 19  2012 localtime
+-rw-r--r--  1 root root     1522 Sep 19  2012 login.defs
+-rw-r--r--  1 root root      619 Jun  4  2012 logrotate.conf
+drwxr-xr-x  2 root root     4096 Oct 16 19:26 logrotate.d
+drwxr-xr-x  4 root root     4096 Aug 29  2012 logwatch
+drwxr-xr-x  2 root root     4096 Sep 19  2012 lsb-release.d
+-rw-r--r--  1 root root    10814 Feb 20  2006 ltrace.conf
+drwxr-xr-x  5 root root     4096 Oct 12 11:47 lvm
+-rw-r--r--  1 root root   140191 Oct 27  2008 lynx.cfg
+-rw-r--r--  1 root root       66 Oct 27  2008 lynx-site.cfg
+drwxr-xr-x  2 root root     4096 Sep 19  2012 mail
+-rw-r--r--  1 root root      293 Jan  6  2007 mailcap
+-rw-r--r--  1 root root      112 Jan  6  2007 mail.rc
+drwxr-xr-x  2 root root     4096 Sep 19  2012 makedev.d
+-rw-r--r--  1 root root     4617 May 30  2012 man.config
+drwxr-xr-x  2 root root     4096 Jan 30  2013 maven
+-rwxr-xr-x  1 root root     2242 May 18  2011 mcelog.conf
+-rw-r--r--  1 root root      346 Sep 19  2012 mdadm.conf
+drwxr-xr-x  3 root root     4096 Jun  8  2012 mercurial
+drwxr-xr-x  2 root root     4096 Sep 19  2012 mgetty+sendfax
+-rw-r--r--  1 root root    14100 Jan  6  2007 mime.types
+-rw-r--r--  1 root root     1112 Jan  6  2007 minicom.users
+-rw-r--r--  1 root root      330 May  9  2013 mke2fs.conf
+-rw-r--r--  1 root root      126 Sep 19  2012 modprobe.conf
+drwxr-xr-x  2 root root     4096 Oct 23 10:48 modprobe.d
+drwxr-xr-x  2 root root     4096 Aug 16 09:10 modulefilesˆen
+========================================
+> end
+Disconnecting from server... 
+Bye Bye~
+~/cs100/hw/hw8
+khsie003@well $ exit
+exit
+
+Script done on Tue 03 Dec 2013 05:52:31 AM PST

@@ -1,0 +1,16 @@
+Name: kevin hsieh
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: Brit Seto
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: Ruby rose
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+DONE

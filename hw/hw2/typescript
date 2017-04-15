@@ -1,0 +1,172 @@
+Script started on Thu 17 Oct 2013 02:04:31 AM PDT
+~
+khsie003@well $ ls 
+[00m[00;34mcs10[00m/   [00;34mcs12[00m/  [00;34mcs61[00m/     [00;34mDownloads[00m/         [00;34mpublic_html[00m/
+[00;34mcs100[00m/  [00;34mcs14[00m/  [00;34mDesktop[00m/  [00mMakefile_template[00m  [00mtypescript[00m
+[m~
+khsie003@well $ cd cs100/hw/hw2
+~/cs100/hw/hw2
+khsie003@well $ ls
+[00m[00mbestMain.cc[00m    [00mCoins.cc[00m  [00;34mlec_note[00m/  [00mMakefile[00m
+[00mbetterMain.cc[00m  [00mCoins.h[00m   [00mmain.cc[00m    [00mmy_ls.cc[00m
+[m~/cs100/hw/hw2
+khsie003@well $ make main
+g++ -ggdb -W -Wall -Werror -ansi -pedantic -c Coins.cc
+g++ -ggdb -W -Wall -Werror -ansi -pedantic main.cc Coins.o -o main
+~/cs100/hw/hw2
+khsie003@well $ c[K./main 
+I started with 100 quarters, 10 dimes, 10 nickels, and 100 pennies in my pocket
+ I bought a candy bar for 482 cents using 19 quarters, 0 dimes, 1 nickels, and 2 pennies
+ I have 81 quarters, 10 dimes, 9 nickels, and 98 pennies left in my pocket
+~/cs100/hw/hw2
+khsie003@well $ make main[K[K[K[Kve[K[Kbetter [KMain.cc [K[K[K[K
+g++ -ggdb -W -Wall -Werror -ansi -pedantic betterMain.cc Coins.o -o betterMain
+~/cs100/hw/hw2
+khsie003@well $ ./betterMain 
+I have 5 quarters, 3 dimes, 6 nickels, and 8 pennies in my pocket
+Using 2 quarters, 1 dimes, 1 nickels, and 3 pennies to pay for Chips 
+I have 3 quarters, 2 dimes, 5 nickels, and 5 pennies left in my pocket
+Taking $5.00 from the piggy bank.
+Now I have 23 quarters, 2 dimes, 5 nickels, and 5 pennies in my pocket.
+And I have 30 quarters, 50 dimes, 50 nickels, and 50 pennies in my piggyBank.
+
+While vacuuming I found 1 quarters, 4 dimes, 6 nickels, and 3 pennies
+Storing the found changes in the Piggy Bank
+Now Piggy Bank has 31 quarters, 54 dimes, 56 nickels, and 53 pennies
+
+~/cs100/hw/hw2
+khsie003@well $ make bestMain.cc 
+make: Nothing to be done for `bestMain.cc'.
+~/cs100/hw/hw2
+khsie003@well $ make bestMain.cc [K[K[K[K
+g++ -ggdb -W -Wall -Werror -ansi -pedantic bestMain.cc Coins.o -o bestMain
+~/cs100/hw/hw2
+khsie003@well $ ./bestMain 
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+p
+You have 0 quarters, 0 dimes, 0 nickels, and 0 pennies
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+d
+Please enter the amount wish to deposit in cents: 243
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+p
+You have 9 quarters, 1 dimes, 1 nickels, and 3 pennies
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+e200   
+Please enter the amount you wish to extract in cents: 200
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+p
+You have 1 quarters, 1 dimes, 1 nickels, and 3 pennies
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+e
+Please enter the amount you wish to extract in cents: 50
+Sorry, you don't have enuogh change! Time to break the piggy bank :c
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+e d
+Please enter the amount wish to deposit in cents: 10  20  20
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+e
+Please enter the amount you wish to extract in cents: 50
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+o p
+You have 0 quarters, 1 dimes, 0 nickels, and 3 pennies
+
+=========MENU==========
+Deposit (d/D)  |   Extract(e/E)
+Print (p/P)    |   Quit(q/Q)
+q
+Bye bye~
+
+~/cs100/hw/hw2
+khsie003@well $ clear
+[H[2J~/cs100/hw/hw2
+khsie003@well $ ls
+[00m[00;32mbestMain[00m*    [00;32mbetterMain[00m*    [00mCoins.cc[00m  [00mCoins.o[00m    [00;32mmain[00m*    [00mMakefile[00m
+[00mbestMain.cc[00m  [00mbetterMain.cc[00m  [00mCoins.h[00m   [00;34mlec_note[00m/  [00mmain.cc[00m  [00mmy_ls.cc[00m
+[m~/cs100/hw/hw2
+khsie003@well $ ls lec_note/
+[00m[00mmyscandir.cc[00m  [00mmystat.cc[00m  [00;34mtestDir[00m/
+[m~/cs100/hw/hw2
+khsie003@well $ ls lec_note/testDir/
+[00m[00mdummyfile[00m  [00mtestfile[00m
+[m~/cs100/hw/hw2
+khsie003@well $ make my_ls.cc l[K[K[K[K[K
+g++ -ggdb -W -Wall -Werror -ansi -pedantic my_ls.cc -o my_ls
+~/cs100/hw/hw2
+khsie003@well $ ./my_ls 
+  Coins.cc
+  Makefile
+  main.cc
+  Coins.h
+  my_ls.cc
+  Coins.o
+  betterMain.cc
+  main
+  lec_note
+    mystat.cc
+    myscandir.cc
+    testDir
+      testfile
+      dummyfile
+  bestMain.cc
+  betterMain
+  bestMain
+  my_ls
+~/cs100/hw/hw2
+khsie003@well $ ./my_ls myls[K[K_ls
+-rwx------ 1 48764 Oct 17 02:07 my_ls
+~/cs100/hw/hw2
+khsie003@well $ ./my_ls lec_note/
+  mystat.cc
+  myscandir.cc
+  testDir
+    testfile
+    dummyfile
+~/cs100/hw/hw2
+khsie003@well $ ./my_ls lec_note/d[Ke[KtestDir/
+  testfile
+  dummyfile
+~/cs100/hw/hw2
+khsie003@well $ clear
+[H[2J~/cs100/hw/hw2
+khsie003@well $ ls
+[00m[00;32mbestMain[00m*    [00;32mbetterMain[00m*    [00mCoins.cc[00m  [00mCoins.o[00m    [00;32mmain[00m*    [00mMakefile[00m  [00mmy_ls.cc[00m
+[00mbestMain.cc[00m  [00mbetterMain.cc[00m  [00mCoins.h[00m   [00;34mlec_note[00m/  [00mmain.cc[00m  [00;32mmy_ls[00m*
+[m~/cs100/hw/hw2
+khsie003@well $ make clean
+rm -rf Coins.o main betterMain bestMain my_ls my_ls.o
+~/cs100/hw/hw2
+khsie003@well $ clea[K[K[K[Kls
+[00m[00mbestMain.cc[00m    [00mCoins.cc[00m  [00;34mlec_note[00m/  [00mMakefile[00m
+[00mbetterMain.cc[00m  [00mCoins.h[00m   [00mmain.cc[00m    [00mmy_ls.cc[00m
+[m~/cs100/hw/hw2
+khsie003@well $ exit
+exit
+
+Script done on Thu 17 Oct 2013 02:08:30 AM PDT

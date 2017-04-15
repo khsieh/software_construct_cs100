@@ -1,0 +1,65 @@
+Script started on Tue 12 Nov 2013 03:03:21 AM PST
+~
+khsie003@well $ cd cs100/hw/hw5
+~/cs100/hw/hw5
+khsie003@well $ ll[Kl
+bash: ll: command not found
+~/cs100/hw/hw5
+khsie003@well $ ls
+[0m[0mcurses.cpp[0m        [0mleagueOfLegends.cpp[0m  [01;32mmy_shell[0m*     [0mout[0m      [0mtypescript[0m
+[0min[0m                [0mleagueOfLegends.h[0m    [0mmy_shell.cpp[0m  [0mout2[0m
+[01;32mleagueOfLegends[0m*  [0mMakefile[0m             [0mmy_shell.pdf[0m  [0mout.pdf[0m
+[m~/cs100/hw/hw5
+khsie003@well $ make clean
+rm -rf leagueOfLegends my_shell leagueOfLegends.o my_shell.o my_shell.ps
+~/cs100/hw/hw5
+khsie003@well $ make leagueOfLegends..[K[K
+g++ -ggdb -W -Wall -Werror -ansi -pedantic leagueOfLegends.cpp -o leagueOfLegends
+,~/cs100/hw/hw5
+khsie003@well $ ,.[K[K./leagueOfLegends 
+Ryze does 330.75 damages to a enemy champion!
+Jinx does 475.54 damages to a enemy champion!
+Dr. Mundo does 448.75 damages to a enemy champion!
+~/cs100/hw/hw5
+khsie003@well $ [H[2J~/cs100/hw/hw5
+khsie003@well $ make my_shell.[K
+g++ -ggdb -W -Wall -Werror -ansi -pedantic my_shell.cpp -o my_shell
+~/cs100/hw/hw5
+khsie003@well $ ./my_shell 
+~> cat out
+~> cat o in
+Hello World!
+Penguinie is a badass assassin!
+~> cat < in
+Hello World!
+Penguinie is a badass assassin!
+~> cat <i  in > | tee out > out2
+i: 3
+args[i]: |
+here?
+~> 
+~/cs100/hw/hw5
+khsie003@well $ make strup[K[Kipt[K
+strip -s leagueOfLegends my_shell
+~/cs100/hw/hw5
+khsie003@well $ am[K[Kmake print
+groff -Tps my_shell.cpp > my_shell.ps
+ps2pdf my_shell.ps my_shell.pdf
+~/cs100/hw/hw5
+khsie003@well $ ls
+[0m[0mcurses.cpp[0m        [0mleagueOfLegends.cpp[0m  [01;32mmy_shell[0m*     [0mmy_shell.ps[0m  [0mout.pdf[0m
+[0min[0m                [0mleagueOfLegends.h[0m    [0mmy_shell.cpp[0m  [0mout[0m          [0mtypescript[0m
+[01;32mleagueOfLegends[0m*  [0mMakefile[0m             [0mmy_shell.pdf[0m  [0mout2[0m
+[m~/cs100/hw/hw5
+khsie003@well $ make clean
+rm -rf leagueOfLegends my_shell leagueOfLegends.o my_shell.o my_shell.ps
+~/cs100/hw/hw5
+khsie003@well $ ls
+[0m[0mcurses.cpp[0m           [0mleagueOfLegends.h[0m  [0mmy_shell.pdf[0m  [0mout.pdf[0m
+[0min[0m                   [0mMakefile[0m           [0mout[0m           [0mtypescript[0m
+[0mleagueOfLegends.cpp[0m  [0mmy_shell.cpp[0m       [0mout2[0m
+[m~/cs100/hw/hw5
+khsie003@well $ exit
+exit
+
+Script done on Tue 12 Nov 2013 03:04:42 AM PST

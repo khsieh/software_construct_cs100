@@ -1,0 +1,34 @@
+Kevin Hsieh
+Justin Jan
+
+ex1 //YAY
+ps -aux
+
+ex2 //YAY
+kill -STOP pid
+kill -CONT pid
+
+ex3
+ps -eo pid,cmd,etime | grep [1-23]:..:..
+
+ex4 //YAY
+//using id to find the user_id
+find ~ -type f ! -user user_id
+
+ex5
+sed '$d' < "filename" | sed ld
+
+ex6
+at 2:00 AM
+at> find ~ -mtime 0
+
+ex7
+grep -nr " functionName(" directory
+
+ex8
+tar -cvf filename.tar.gz file1 file2 file3 /dir1 /dir2 ...
+tar -xvf filename.tar.gz dirname 
+tar -rvf filename.tar.gz newfile1 ...
+tar -xvf filename.tar.gz -C targetDir
+
+ex9

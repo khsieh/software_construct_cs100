@@ -1,0 +1,339 @@
+Script started on Thu 10 Oct 2013 01:08:26 AM PDT
+~
+khsie003@well $ cd cs100/hw/hw1/
+~/cs100/hw/hw1
+khsie003@well $ ls -l
+[00mtotal 68
+-rw------- 1 khsie003 csmajs   304 Oct  9 23:09 [00mloadfile.txt[00m
+-rwx------ 1 khsie003 csmajs 25275 Oct 10 01:07 [00;32mrolodex[00m*
+-rw------- 1 khsie003 csmajs 12191 Oct 10 01:07 [00mrolodex.cc[00m
+-rw------- 1 khsie003 csmajs   398 Oct 10 01:03 [00msavefile.txt[00m
+-rwx------ 1 khsie003 csmajs 11504 Oct 10 00:53 [00;32mstack[00m*
+-rw------- 1 khsie003 csmajs  1270 Oct 10 00:11 [00mstack.cc[00m
+-rw------- 1 khsie003 csmajs   951 Oct 10 00:09 [00mstack.h[00m
+[m~/cs100/hw/hw1
+khsie003@well $ g++ -o rolodexo[K rolodexo[K.cc [K
+~/cs100/hw/hw1
+khsie003@well $ ./rolodex 
+       Welcome to kev's Rolodex
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+i
+
+Inserting a new address into Rolodex 
+Please enter the following information.
+First Name: kevin
+Last Name: hsieh
+Address: 12345 hello st, .
+Phone: 987 765 543  3 2
+
+Insert File successfully
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+p
+=======================================
+Name: kevin hsieh
+Address: 12345 hello st.
+Phone: 987 765 5432
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+i
+
+Inserting a new address into Rolodex 
+Please enter the following information.
+First Name: ruby
+Last Name: rose
+Address: red like roses
+Phone: 5=  444 444 4444
+
+Insert File successfully
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+p
+=======================================
+Name: kevin hsieh
+Address: 12345 hello st.
+Phone: 987 765 5432
+=======================================
+
+Name: ruby rose
+Address: red like roses
+Phone: 444 444 4444
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+i
+
+Inserting a new address into Rolodex 
+Please enter the following information.
+First Name: hello
+Last Name: world
+Address: world st.
+Phone: 0980980980
+
+Insert File successfully
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+p
+=======================================
+Name: kevin hsieh
+Address: 12345 hello st.
+Phone: 987 765 5432
+=======================================
+
+Name: ruby rose
+Address: red like roses
+Phone: 444 444 4444
+=======================================
+
+Name: hello world
+Address: world st.
+Phone: 0980980980
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+d f
+Enter Last Name: world
+
+File Found!
+Name: hello world
+Address: world st.
+Phone: 0980980980
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+f
+Enter Last Name: rose
+
+File Found!
+Name: ruby rose
+Address: red like roses
+Phone: 444 444 4444
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+f
+Enter Last Name: hsieh
+
+File Found!
+Name: kevin hsieh
+Address: 12345 hello st.
+Phone: 987 765 5432
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+d
+Enter Last Name: hsieh
+File deletion successful!
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+d p
+=======================================
+Name: ruby rose
+Address: red like roses
+Phone: 444 444 4444
+=======================================
+
+Name: hello world
+Address: world st.
+Phone: 0980980980
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+d
+Enter Last Name: ro  world
+File deletion successful!
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+p
+=======================================
+Name: ruby rose
+Address: red like roses
+Phone: 444 444 4444
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+d
+Enter Last Name: rose
+File deletion successful!
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+p
+Rolodex does not contain any files!
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+i
+
+Inserting a new address into Rolodex 
+Please enter the following information.
+First Name: kevin hs    
+Last Name: hsieh
+Address: 12345 hello st.
+Phone: 616 626 6266
+
+Insert File successfully
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+p
+=======================================
+Name: kevi hsieh
+Address: 12345 hello st.
+Phone: 616 626 6266
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+l
+You have made changes to the Rolodex, do you wish to save the Rolodex? (y/n)n
+Enter the Name of the file you wish to Load
+loadfile.txt
+File load successfully!
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+p
+=======================================
+Name: Brit Seto
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: kevin hsieh
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: Ruby rose
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+i
+
+Inserting a new address into Rolodex 
+Please enter the following information.
+First Name: hello
+Last Name: world
+Address: 12345 world st.
+Phone: 876 876 9898
+
+Insert File successfully
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+p
+=======================================
+Name: Brit Seto
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: kevin hsieh
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: Ruby rose
+Address: 1231sdfaksfda;sjf
+Phone: 2131231
+=======================================
+
+Name: hello world
+Address: 12345 world st.
+Phone: 876 876 9898
+=======================================
+
+Please enter a command from the menu
+=====================MENU=====================
+Insert (i/I)    |   Find (f/F)   |     Delete(d/D)
+Print (p/P)     |   Load (l/L)   |     Save(s/S)
+Quit (q/Q)
+q
+You have made changes to the Rolodex, do you wish to save the Rolodex? (y/n)y
+Enter the file name you wish to save Rolodex in: savefile.txt
+File saved successfully!
+
+Thank you for using kev's Rolodex!
+Have a wonderful day! C:
+
+~/cs100/hw/hw1
+khsie003@well $ exit
+exit
+
+Script done on Thu 10 Oct 2013 01:12:43 AM PDT

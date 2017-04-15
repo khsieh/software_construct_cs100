@@ -1,0 +1,40 @@
+=================vim edit exercise================
+>Homer Simpson is intelligent
+
+-using 'l' key to get cursor to "intelligent"
+-using 'dw' to delete "intelligent" string
+>Homer Simpson is 
+
+-using 'i' key to insert " an idoit"
+>Homer Simpson is an idoit
+
+-using 'ma' command to set marker a at current cursor positoin
+-using '0' to get to the beginning of the line
+-using 'i' to insert  "IF "
+>IF Homer Simpson is an idoit
+
+-using '`a' to get back to marker a
+-using 'w' to get the cursor to the end of the word
+-using 'a' to append ' savant'
+>IF Homer Simpson is an idoit savant
+
+-using '0' and 'l' to get the cursor on the character 'F'
+-using 'x' to delete the character 'F'
+-using 'i' to insert the character 'f'
+>If Homer Simpson is an idoit savant
+
+-using '0' to get to the beginning of line 
+-using 'i' to insert a new line character
+-using 'wq' to wrtie the file and exit
+
+================insert Macro====================
+-using 'qa' to start recording
+-using 'i' to go into insert mode
+>if(;;)
+>{
+>   >
+>}
+-using 'h' 'j' 'k' 'l' to get to the first ';' char
+-using crtl + o to execute 'q' to exit recording
+-map the macro 'a' with '/fo'
+

@@ -1,0 +1,11 @@
+Socket Success!
+Binding successful!
+Listen Success!
+Socket Success!
+Connecting to server...
+Accept Success!
+writing into client...
+Reading from Server...
+1 2 3 4 5
+Server shutting down.
+Client shutting down.

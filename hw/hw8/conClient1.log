@@ -1,0 +1,26 @@
+Script started on Tue 03 Dec 2013 06:04:17 AM PST
+~
+khsie003@well $ cd cs100/hw/hw8/test1
+~/cs100/hw/hw8/test1
+khsie003@well $ cd cs100/hw/hw8/test1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./itClient well.cs.ucr.edu
+bash: ./itClient: No such file or directory
+~/cs100/hw/hw8/test1
+khsie003@well $ ./itClient well.cs.ucr.edu[C[1P[1P[1P[4hc[4l[4ho[4l[1P[1P[4h/[4l[4hc[4l[4ho[4l[4hn[4l
+Connecting to remote server: well.cs.ucr.edu
+Socket setup successful.
+Connecting to well.cs.ucr.edu using port 54367 ...
+Connection established!
+
+Enter the directory name you wish to copy: ./Toc _copy
+making new directory named: ./To_copy
+Writing file: ./To_copy/file1... 
+Writing file: ./To_copy/file3... 
+Writing file: End_Of_Dir... 
+
+Disconnecting from server... 
+Bye Bye~
+~/cs100/hw/hw8/test1
+khsie003@well $ exit
+exit
+
+Script done on Tue 03 Dec 2013 06:07:01 AM PST
